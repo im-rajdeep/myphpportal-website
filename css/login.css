@@ -1,0 +1,31 @@
+body{
+    background-image: url('../assets/newimageforlog.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.logbox{
+    padding: 50px;
+    border: 2px silver solid;
+    border-radius: 8px;
+    box-shadow: 0px 0px 125px 65px black;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+
+}
+.logsubmit{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color:  #4e0303;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+} 
+.logsubmit:hover {
+    opacity: 1;
+    background-color: #6b2929;
+}

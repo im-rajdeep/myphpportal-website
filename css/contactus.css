@@ -1,0 +1,73 @@
+.commentsection {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    border-radius:4px;
+  }
+  
+  .coomentsection:focus{
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid hwb(0 63% 36%);
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  .enterbtn{
+    background-color: rgb(79, 3, 3);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    border-radius: 4px;
+  }
+  
+  .enterbtn:hover {
+    opacity:1;
+  }
+  .enterbtn{
+    width:100%;
+  }
+  
+
+  .commentout {
+    padding-left:30px;
+    padding-right:30px;
+  
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+  
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .iconn{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    padding:3px;
+  }
